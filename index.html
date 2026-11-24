@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Білет 15</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    .menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: #1707a0;
+    }
+
+    .menu a {
+      display: block;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .menu a:hover { background: #1a57b3; }
+
+    @media (max-width: 767px) {
+      .menu {
+        flex-direction: column;
+        text-align: center;
+      }
+      .menu a {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+      <li><a href="#">Головна</a></li>
+      <li><a href="#">Про нас</a></li>
+      <li><a href="#">Послуги</a></li>
+      <li><a href="#">Блог</a></li>
+      <li><a href="#">Контакти</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
